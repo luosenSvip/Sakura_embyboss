@@ -11,5 +11,5 @@ from bot.modules.commands import *
 from bot.modules.extra import *
 from bot.modules.callback import *
 from bot.web import *
-
+from bot.modules.redeem import *
 bot.run()
