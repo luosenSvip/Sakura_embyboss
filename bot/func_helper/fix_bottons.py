@@ -54,6 +54,7 @@ def members_ikb(is_admin: bool = False, account: bool = False) -> InlineKeyboard
         normal = [[('🏪 兑换商店', 'storeall'), ('🗑️ 删除账号', 'delme')],
                     [('🎬 显示/隐藏', 'embyblock'), ('⭕ 重置密码', 'reset')],
                     [('💖 我的收藏', 'my_favorites'),('💠 我的设备', 'my_devices')],
+                    [('🎁 积分兑换', 'redeem_input')]   # ✅ 新增积分兑换按钮
                     ]
         if moviepilot.status:
             normal.append([('🍿 点播中心', 'download_center')])
